@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>image gallery</title>
+</head>
+<body>
+<h1>Snapshos</h1>
+<ul>
+ <li>
+   <a href="juhua.jpg" title="juhua" onclick="showPic(this); return false;">juhua</a>
+ </li>
+<li>
+   <a href="hehua.jpg" title="hehua" onclick="showPic(this); return false;">hehua</a>
+ </li>
+<li>
+   <a href="shuimu.jpg" title="shuimu" onclick="showPic(this); return false;">shuimu</a>
+ </li>
+<li>
+   <a href="kaola.jpg" title="kaola" onclick="showPic(this); return false;">kaola</a>
+ </li>
+</ul>
+<img id="placeholder" src="juhua.jpg" alt="my image gallery"/>
+<p id="description">choose an image.</p>
+<script src=zzr1.js></script>
+</body>
+</html>
