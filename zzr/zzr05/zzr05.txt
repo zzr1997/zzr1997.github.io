@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>image gallery</title>
+<link rel="stylesheet" href="zzr05.css">
+</head>
+<body>
+<h1>Snapshos</h1>
+<ul id="bq">
+ <li>
+   <a href="juhua.jpg" title="juhua" ><img class="img" src="juhua.jpg" alt="juhua"></a>
+ </li>
+<li>
+   <a href="hehua.jpg" title="hehua" ><img class="img" src="hehua.jpg" alt="hehua"></a>
+ </li>
+<li>
+   <a href="shuimu.jpg" title="shuimu" ><img class="img" src="shuimu.jpg" alt="shuimu"></a>
+ </li>
+<li>
+   <a href="kaola.jpg" title="kaola" ><img class="img" src="kaola.jpg" alt="kaola"></a>
+ </li>
+</ul>
+<img id="placeholder" style="width:500px;height=:400px;margin-left:300px;;margin-top:100px;" src="juhua.jpg" alt="my image gallery"/>
+
+<script >
+		function showPic(whichPic){
+				var a=whichPic.getAttribute("href");
+				var b=document.getElementById("placeholder");
+				b.setAttribute("src",a);
+			}
+		function pre(){
+			var links=document.getElementsByTagName("a");
+			for(var i=0;i<links.length;i++){
+				links[i].onclick=function(){
+					showPic(this);
+					return false;
+
+					}}}
+			pre();
+		</script>
+			
+
+</body>
+</html>

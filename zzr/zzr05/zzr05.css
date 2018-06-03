@@ -1,0 +1,15 @@
+.img{
+	width:240px;
+	height: 150px;
+	float: left;
+	margin-left:50px;
+}
+li{
+	list-style: none;
+	float: left;
+}
+a{
+	text-decoration: none;
+	float: left;
+
+}
